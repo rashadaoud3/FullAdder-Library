@@ -1,0 +1,7 @@
+vdd vdd 0 dc 5
+Va a 0 pulse 5 0 0 1n 1n 2u 4u
+Vb b 0 pulse 5 0 0 1n 1n 1u 2u
+Vcin cin 0 pulse 5 0 0 1n 1n 4u 8u
+cload out 0 250fF
+.tran 0 15u
+.include C:\electric\C5_models.txt
